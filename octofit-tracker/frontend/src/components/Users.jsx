@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { fetchResource, getApiUrl } from './api.js';
 
+// Codespaces API endpoint example: https://${import.meta.env.VITE_CODESPACE_NAME}-8000.app.github.dev/api/users
 const API_COMPONENT = 'users';
 
 export default function Users() {
